@@ -122,25 +122,7 @@ TensorFlow.
 
 ------------------------------------------------------------------------
 
-## 8. Rekomendasi Penyelesaian
-
-Beberapa langkah yang disarankan untuk mengatasi kendala memori:
-
-1.  **Menutup aplikasi lain** untuk mengurangi konsumsi RAM sebelum
-    menjalankan TFX.\
-2.  **Menambah kapasitas RAM** perangkat.\
-3.  Menjalankan TFX pada lingkungan **berbasis cloud**, seperti:
-    -   Google Colab\
-    -   Kaggle Notebook\
-    -   Vertex AI\
-4.  Menggunakan **TensorFlow versi CPU-only** atau versi lebih ringan.\
-5.  Mengurangi komponen pipeline TFX pada tahap pengujian awal.\
-6.  Menggunakan **Docker container** sehingga proses lebih terisolasi
-    dan stabil.
-
-------------------------------------------------------------------------
-
-## 9. Penutup
+## 8. Penutup
 
 Laporan ini disusun untuk mendokumentasikan proses instalasi TFX dalam
 venv serta kendala yang muncul saat proses eksekusi. Diharapkan laporan
